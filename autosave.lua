@@ -20,4 +20,4 @@ local attach_to_buffer = function(current_buf, pattern, command)
 })
 end
 
-attach_to_buffer(3, "*.py", {"python3", "my.py"})
+attach_to_buffer(3, "*.py", {"python3", "test.py"})
